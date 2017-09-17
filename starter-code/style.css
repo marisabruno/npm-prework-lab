@@ -1,0 +1,242 @@
+body{
+  font-family: "open sans","opensans",sans-serif;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 50px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+h1 {
+  color:white;
+  font-size: 1.5em;
+}
+
+h2{
+font-size: 1.5em;
+}
+
+/*buttons*/
+
+.btn {
+  border-radius: 30px;
+  width: 150px;
+  font-size: .8em;
+  text-align: center;
+  background-color: black;
+  padding: 5px;
+}
+
+.btn a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.sign-up-npm{
+  background-color: rgb(240, 146, 51);
+}
+
+
+
+
+
+.top-left{
+  display: inline-block;
+}
+.top-right {
+  display: inline;
+  float: right;
+  margin: 0 20px 0;
+  height: 50px;
+}
+
+.top-links li {
+  display: inline;
+  margin: 0 10px;
+  padding-bottom: 20px;
+}
+
+
+/*first big section*/
+
+.intro {
+  background-image: url("images/city-scape.svg");
+  background-size: cover;
+  height: 500px;
+
+}
+
+
+
+.top-intro{
+  padding: 20px;
+
+}
+
+.top-logo img{
+  width: 5%;
+  display: inline-block;
+  float: left;
+  margin: 0 10px;
+}
+
+.search-box{
+  display: inline-block;
+}
+
+.search-box .search-space{
+  width: 500px;
+}
+
+.search-box input{
+  background-color: rgb(31, 82, 111);
+
+}
+
+.signup{
+  display:inline-block;
+  float: right;
+  color: white;
+}
+
+.signup img{
+  height: 15px;
+}
+
+.signup a{
+  text-decoration: none;
+  color: white;
+}
+
+.bottom-intro{
+  display: inline-block;
+  clear: both;
+}
+
+
+.intro-text {
+  width:30%;
+  margin: 0 auto;
+}
+
+.bottom-intro p{
+  color: white;
+}
+
+/*second section*/
+
+
+.img-1{
+  width: 40%;
+  padding: 30px;
+}
+
+.text-2{
+  display: inline-block;
+  padding: 30px;
+}
+
+#npm-orgs {
+
+  background-color: rgb(39, 53, 71);
+}
+
+.second-section{
+  width: 90%;
+  padding: 100px;
+  margin: 0px auto;
+}
+
+.second-section h2 {
+  color: white;
+}
+
+.second-section p{
+  color: white;
+}
+
+.second-section li {
+  color: white;
+}
+
+.second-section a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.sign-up-orgs{
+  background-color: rgb(203, 56, 55);
+}
+
+
+/*third section*/
+
+.what-is-npm{
+  background-image: url("images/forklift.svg");
+  background-size: cover;
+  height: 600px;
+  position:relative;
+}
+
+.container-3{
+  color: white;
+  width: 30%;
+  position: absolute;
+  top: 150px;
+  left: 250px;
+}
+
+.install-npm{
+  background-color: rgb(49, 68, 88);
+}
+
+/*fourth section*/
+
+.heading-explainer{
+  width:60%;
+  margin: 0px auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.heading-explainer h2{
+  color: rgb(83, 88, 98);
+}
+
+.heading-explainer p{
+  color:rgb(135, 145, 156);
+}
+
+.three-articles {
+  margin: 50px;
+}
+.chunk {
+  width: 33%;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 0px auto;
+  float: left;
+  text-align: center;
+}
+
+.chunk h3{
+  color: rgb(83, 88, 98);
+}
+
+.chunk p{
+  color:rgb(135, 145, 156);
+}
+
+.chunk a{
+  text-decoration: none;
+  color:rgb(208, 74, 73);
+}
